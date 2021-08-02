@@ -1,0 +1,12 @@
+projects:
+  rnapi:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - rnapi
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: .
